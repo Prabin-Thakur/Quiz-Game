@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.start_page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start_button {
+  font-size: 5rem;
+  color: rgb(7, 6, 6);
+  width: 15rem;
+  text-align: center;
+}
+
+.start_button:hover {
+  color: rgb(230, 2, 2);
+  cursor: pointer;
+}
+
+.start_button:focus {
+  outline: none;
+}
+
+.question_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.question_page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_container {
+  width: 100vw;
+  height: 20vh;
+}
+
+.score {
+  font-size: 3rem;
+}
+
+.next_button {
+  background-color: rgb(31, 147, 255);
+  color: white;
+  border-radius: 13px;
+  border: none;
+  width: 5rem;
+  height: 3rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.next_button:focus {
+  outline: none;
+}
+
+.next_button:hover {
+  color: rgb(17, 44, 44);
+  cursor: pointer;
+}
+
+.quiz_container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.option {
+  margin-top: 2rem;
+}
+
+.question {
+  margin-top: 1rem;
+  font-size: 3rem;
+  color: rgb(34, 204, 147);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.option {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+.option {
+  cursor: pointer;
+}
+
+.question_text {
+  text-align: center;
+}
+
+.option-1,
+.option-2,
+.option-3 {
+  text-align: center;
+}
+
+.result_page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.restart_button {
+  font-size: 50px;
+  margin-top: 2rem;
+}
+
+.restart_button:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.green {
+  color: rgb(1, 255, 1);
+}
+
+.red {
+  color: rgb(255, 0, 0);
+}
