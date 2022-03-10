@@ -144,6 +144,16 @@ const questions = [
       c: "Russian Wanker"
     },
     correctAnswer: "b"
+  },
+
+  {
+    question: "Who invented this app?",
+    answers: {
+      a: "Don't know who the fuck that will be",
+      b: "fucking D",
+      c: "Russian Wanker"
+    },
+    correctAnswer: "b"
   }
 ];
 
