@@ -150,7 +150,7 @@ const questions = [
     question: "Who invented this app?",
     answers: {
       a: "Don't know who the fuck that will be",
-      b: "fucking D",
+      b: "fucking DumbAss",
       c: "Russian Wanker"
     },
     correctAnswer: "b"
